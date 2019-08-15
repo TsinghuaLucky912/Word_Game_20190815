@@ -36,7 +36,7 @@ int main()
 	int  input_buf_pos = 0;         // 单词输入缓冲区索引
 	bool input_pos_back = false;    // 输入位置是否回退
 
-	int emit_speed = 25;            // 单词发射速度(每当前计数发射一次)
+	int emit_speed = 45;            // 单词发射速度(每当前计数发射一次)
 	int emit_speed_count = 0;       // 单词发射速度计数器
 
 	int word_killed = 0;            // 命中单词计数
